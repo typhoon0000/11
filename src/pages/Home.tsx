@@ -132,13 +132,13 @@ const Home = () => {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link
-                  to="/contact"
+                <a
+                  href="tel:+966581000288"
                   className="inline-flex items-center px-8 py-4 bg-brand-gold hover:bg-opacity-90 text-white font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg group"
                 >
-                  تواصل معنا
-                  <ArrowRight className="mr-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
-                </Link>
+                  اتصل بنا
+                  <Phone className="mr-2 h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
+                </a>
                 <Link
                   to="/services"
                   className="inline-flex items-center px-8 py-4 border-2 border-white text-white hover:bg-white hover:text-gray-900 font-semibold rounded-lg transition-all duration-300"
